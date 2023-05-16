@@ -10,6 +10,7 @@ import Products from './pages/Products.jsx'
 import SingleProduct from './pages/SingleProduct.jsx'
 import Error from './pages/Error.jsx'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 
@@ -21,7 +22,7 @@ function App() {
      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="about" element={<About/>/>
+        <Route path="about" element={<About/>}/>
         <Route path="products" element={<Products/>}/>
         <Route path="products/:productsId" element={<SingleProduct/>}/>
         <Route path="posts" element={<Posts/>}/>
